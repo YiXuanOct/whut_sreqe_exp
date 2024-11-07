@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65e89015-2b26-4220-a51f-f8a6b65fac13" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/data/Java开发.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cn_stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/hit_stopwords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/round.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/数据分析师.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/算法工程师.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/links/Java开发.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/links/数据分析师.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/links/算法工程师.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whut_sreqe_exp/data_cleaning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/whut_sreqe_exp/get_data.py" afterDir="false" />
+    <list default="true" id="65e89015-2b26-4220-a51f-f8a6b65fac13" name="Changes" comment="Completed">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/whut_sreqe_exp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/whut_sreqe_exp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whut_sreqe_exp/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/whut_sreqe_exp/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/links/算法工程师.txt" beforeDir="false" afterPath="$PROJECT_DIR$/links/算法工程师.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +31,9 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -55,6 +49,7 @@
   "keyToString": {
     "Python.analyse.executor": "Run",
     "Python.data_cleaning.executor": "Run",
+    "Python.get_data.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -98,6 +93,10 @@
       <workItem from="1730811919221" duration="335000" />
       <workItem from="1730812263109" duration="9167000" />
       <workItem from="1730864285320" duration="8181000" />
+      <workItem from="1730878218466" duration="105000" />
+      <workItem from="1730891721892" duration="339000" />
+      <workItem from="1730906331368" duration="3136000" />
+      <workItem from="1730950916038" duration="1232000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -107,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730367257820</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed">
+      <option name="closed" value="true" />
+      <created>1730878272846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730878272846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,11 +133,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/whut_sreqe_exp$get_data.coverage" NAME="get_data 覆盖结果" MODIFIED="1730952183980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/whut_sreqe_exp" />
     <SUITE FILE_PATH="coverage/whut_sreqe_exp$analyse.coverage" NAME="analyse 覆盖结果" MODIFIED="1730869301819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/whut_sreqe_exp" />
     <SUITE FILE_PATH="coverage/whut_sreqe_exp$data_cleaning.coverage" NAME="data_cleaning 覆盖结果" MODIFIED="1730877630310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/whut_sreqe_exp" />
-    <SUITE FILE_PATH="coverage/whut_sreqe_exp$main.coverage" NAME="main 覆盖结果" MODIFIED="1730865426696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/whut_sreqe_exp" />
+    <SUITE FILE_PATH="coverage/whut_sreqe_exp$main.coverage" NAME="main 覆盖结果" MODIFIED="1730952074063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/whut_sreqe_exp" />
   </component>
 </project>
